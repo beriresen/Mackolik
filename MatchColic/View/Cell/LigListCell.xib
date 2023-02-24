@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="72" id="LuN-Dj-xYb" customClass="LigListCell" customModule="MatchColic" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="72"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="LuN-Dj-xYb" id="kXb-O9-kwf">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="72"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flagtr" translatesAutoresizingMaskIntoConstraints="NO" id="jmO-09-8oT">
+                        <rect key="frame" x="16" y="16" width="44" height="44"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="44" id="2S0-bC-9NT"/>
+                            <constraint firstAttribute="width" constant="44" id="AUe-Xq-vSc"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="16"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Spor Toto Süper Lig" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FwQ-mj-NWi">
+                        <rect key="frame" x="68" y="28" width="203" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="N99-Xi-TIA"/>
+                            <constraint firstAttribute="width" constant="203" id="aJL-FF-3Gq"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow" translatesAutoresizingMaskIntoConstraints="NO" id="Al7-XT-fpC">
+                        <rect key="frame" x="344" y="30" width="12" height="12"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="12" id="36L-km-Qtf"/>
+                            <constraint firstAttribute="width" constant="12" id="neK-Tb-FeX"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="jmO-09-8oT" firstAttribute="leading" secondItem="kXb-O9-kwf" secondAttribute="leading" constant="16" id="OZO-g3-nYP"/>
+                    <constraint firstAttribute="bottom" secondItem="Al7-XT-fpC" secondAttribute="bottom" constant="30" id="V4T-Hh-DJJ"/>
+                    <constraint firstAttribute="bottom" secondItem="jmO-09-8oT" secondAttribute="bottom" constant="16" id="XPE-Vf-UJ6"/>
+                    <constraint firstItem="jmO-09-8oT" firstAttribute="top" secondItem="kXb-O9-kwf" secondAttribute="top" constant="16" id="bAa-AD-5AQ"/>
+                    <constraint firstItem="FwQ-mj-NWi" firstAttribute="top" secondItem="kXb-O9-kwf" secondAttribute="top" constant="28" id="cJ3-VJ-3pg"/>
+                    <constraint firstAttribute="trailing" secondItem="Al7-XT-fpC" secondAttribute="trailing" constant="19" id="dRO-1q-Bq6"/>
+                    <constraint firstItem="Al7-XT-fpC" firstAttribute="top" secondItem="kXb-O9-kwf" secondAttribute="top" constant="30" id="ugb-iE-jpN"/>
+                    <constraint firstItem="FwQ-mj-NWi" firstAttribute="leading" secondItem="jmO-09-8oT" secondAttribute="trailing" constant="8" symbolic="YES" id="x7V-aU-8bg"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="CeY-C2-ChH"/>
+            <connections>
+                <outlet property="imgFlag" destination="jmO-09-8oT" id="Dsc-8L-6p0"/>
+                <outlet property="lblLig" destination="FwQ-mj-NWi" id="KHG-yH-Lwj"/>
+            </connections>
+            <point key="canvasLocation" x="170.22900763358777" y="71.83098591549296"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="arrow" width="12" height="12"/>
+        <image name="flagtr" width="64" height="64"/>
+    </resources>
+</document>
