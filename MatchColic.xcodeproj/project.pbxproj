@@ -28,7 +28,6 @@
 		A9284B8029A3676D0082AE4F /* MaclarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9284B7F29A3676D0082AE4F /* MaclarCell.xib */; };
 		A95DC96029A4BB1C00190059 /* MaclarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95DC95F29A4BB1C00190059 /* MaclarModel.swift */; };
 		A95DC96229A4CC6900190059 /* GoalKingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95DC96129A4CC6900190059 /* GoalKingsCell.swift */; };
-		A95DC96629A4D42200190059 /* Baslik.xib in Resources */ = {isa = PBXBuildFile; fileRef = A95DC96529A4D42200190059 /* Baslik.xib */; };
 		A970F216299E2D1900101566 /* AnasayfaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A970F215299E2D1900101566 /* AnasayfaVC.swift */; };
 		A99B9233299B88D900C89410 /* LigListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99B9232299B88D900C89410 /* LigListCell.swift */; };
 		A99B9237299B896400C89410 /* LigListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A99B9236299B896400C89410 /* LigListCell.xib */; };
@@ -63,7 +62,6 @@
 		A9284B7F29A3676D0082AE4F /* MaclarCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MaclarCell.xib; sourceTree = "<group>"; };
 		A95DC95F29A4BB1C00190059 /* MaclarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaclarModel.swift; sourceTree = "<group>"; };
 		A95DC96129A4CC6900190059 /* GoalKingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalKingsCell.swift; sourceTree = "<group>"; };
-		A95DC96529A4D42200190059 /* Baslik.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Baslik.xib; sourceTree = "<group>"; };
 		A970F215299E2D1900101566 /* AnasayfaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaVC.swift; sourceTree = "<group>"; };
 		A99B9232299B88D900C89410 /* LigListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LigListCell.swift; sourceTree = "<group>"; };
 		A99B9236299B896400C89410 /* LigListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LigListCell.xib; sourceTree = "<group>"; };
@@ -187,15 +185,9 @@
 		A9072ED9299A7494008E78F6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A9970BAD29ACB210008839AC /* Storyboards */,
+				A9970BAC29ACB1FD008839AC /* VC */,
 				A9284B7E29A3674D0082AE4F /* Cell */,
-				A9072EAD299A6C1C008E78F6 /* Main.storyboard */,
-				A9072EB2299A6C1D008E78F6 /* LaunchScreen.storyboard */,
-				A970F215299E2D1900101566 /* AnasayfaVC.swift */,
-				A9072EAB299A6C1C008E78F6 /* LiglerVC.swift */,
-				A99B923C299BAEE400C89410 /* PuanDurumuVC.swift */,
-				A9D476C7299F88E4001ABD65 /* MaclarVC.swift */,
-				A9D476C9299F8AE2001ABD65 /* GoalKingsVC.swift */,
-				A95DC96529A4D42200190059 /* Baslik.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -211,6 +203,27 @@
 				A95DC96129A4CC6900190059 /* GoalKingsCell.swift */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		A9970BAC29ACB1FD008839AC /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				A970F215299E2D1900101566 /* AnasayfaVC.swift */,
+				A9072EAB299A6C1C008E78F6 /* LiglerVC.swift */,
+				A99B923C299BAEE400C89410 /* PuanDurumuVC.swift */,
+				A9D476C7299F88E4001ABD65 /* MaclarVC.swift */,
+				A9D476C9299F8AE2001ABD65 /* GoalKingsVC.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		A9970BAD29ACB210008839AC /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A9072EAD299A6C1C008E78F6 /* Main.storyboard */,
+				A9072EB2299A6C1D008E78F6 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 		FE6E526FC6DB80751950F989 /* Frameworks */ = {
@@ -284,7 +297,6 @@
 				A9072EB4299A6C1D008E78F6 /* LaunchScreen.storyboard in Resources */,
 				A99B9237299B896400C89410 /* LigListCell.xib in Resources */,
 				A9072EB1299A6C1D008E78F6 /* Assets.xcassets in Resources */,
-				A95DC96629A4D42200190059 /* Baslik.xib in Resources */,
 				A9072EAF299A6C1C008E78F6 /* Main.storyboard in Resources */,
 				A9284B8029A3676D0082AE4F /* MaclarCell.xib in Resources */,
 			);
