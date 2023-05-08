@@ -54,7 +54,7 @@ extension MatchcolicEndPoint: Endpoint {
         case .ligList, .maclar, .ligSira, .goalKings:
             return [
                 "Content-Type":"application/json",
-                "Authorization":"apikey YOUR_ACCESS_TOKEN"
+                "Authorization":"apikey 10r84TUX0DHNjla2wGw4lR:2wb77Z5MjD3Co9s7Z0i9tK"
             ]
         }
     }
