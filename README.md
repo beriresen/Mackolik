@@ -1,5 +1,11 @@
 # Mackolik
 
+## Kullanılan Teknolojiler<br/>
+* UIKit <br/>
+* Alamofire <br/>
+* MVVM <br/>
+* TableViewCell <br/>
+
 **Projenin Amacı** <br/>
 
 *Büyük liglerin listesini , bu liglere ait puan durumu,maç sonuçları ve gol krallarını getiren Swift UIKit-MVVM-Alamofire ile bireysel olarak geliştirdiğim projem.*<br/>
